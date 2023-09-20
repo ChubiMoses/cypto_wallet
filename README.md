@@ -1,16 +1,8 @@
-# wallet
+# Etherium Wallet
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Integrating Web3 into mobile is exhilarating. In this straightforward dApp, 
+I've built a Crypto wallet from scratch using Flutter. 
+This was made possible by leveraging key libraries:
+bip39: for mnemonic generation.
+hex, ed25519_hd_key, and web3dart: for generating public and private keys.
+Molaris API: for fetching wallet balances and associated NFTs.
